@@ -1,10 +1,10 @@
 from employee import Employee
 
-class Master(Employee):
+class Master():
     emp = Employee()
 
     def features(self):
-        name = input("Name :")
+        name = str(input("Name :"))
         email = input("E-mail :")
         n = input("Number of actions :")
         actions = []
@@ -14,4 +14,4 @@ class Master(Employee):
         self.emp.name = input("Employee Name :")
         self.emp.salary = input("Employee Salary :")
         print("Employee Name : {}, Employee Salary : {} ".format(self.emp.name, self.emp.salary))
-        
+
