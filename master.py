@@ -4,7 +4,7 @@ class Master():
     emp = Employee()
 
     def features(self):
-        name = str(input("Name :"))
+        name = raw_input("Name :")
         email = input("E-mail :")
         n = input("Number of actions :")
         actions = []
