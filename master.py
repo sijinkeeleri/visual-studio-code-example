@@ -13,5 +13,3 @@ class Master():
             emp.displayEmployee()
 
     addemployee()
-
-
