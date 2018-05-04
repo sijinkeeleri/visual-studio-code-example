@@ -13,3 +13,14 @@ class Master():
             emp.displayEmployee()
 
     addemployee()
+    def permission():
+        input("Enter 5 master permission : ")
+        for i in range(1,6):
+            permission = input("{} :".format(i))
+        b = input("Save Changes (Y/N) :")
+        if b == 'Y' or b == 'y':
+            print("save successfully")
+
+        else:
+            print("unsaved permissions")
+        
